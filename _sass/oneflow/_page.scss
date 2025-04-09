@@ -57,9 +57,11 @@ body {
   }
 }
 
+
 .page__title {
-  margin-top: 0;
+  margin-top: 12rem;
   line-height: 1;
+  font-size: 450%;
 
   a {
     color: $text-color;
@@ -214,13 +216,6 @@ text-align: center;
       text-align: center;
     }
 
-    .page__title {
-      font-size: $type-size-2;
-
-      @include breakpoint($small) {
-        font-size: $type-size-1;
-      }
-    }
   }
 }
 
